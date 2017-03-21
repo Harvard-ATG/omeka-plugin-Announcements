@@ -21,3 +21,6 @@ header {
 .subhead {
   top: 20px;
 }
+footer.container {
+  top: 20px;
+}
