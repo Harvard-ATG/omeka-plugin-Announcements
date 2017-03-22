@@ -1,26 +1,40 @@
+/* line 3, ../sass/announcements.scss */
 #announcement {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
   color: black;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f95602;
+  font-weight: bold;
+  font-size: 14pt;
 }
 
+/* line 17, ../sass/announcements.scss */
 header {
-  top:20px;
+  top: 43px;
 }
 
+/* line 21, ../sass/announcements.scss */
 #content-nav {
-  top: 70px
+  top: 93px;
 }
 
+/* line 25, ../sass/announcements.scss */
 #content {
-  top: 20px;
+  top: 43px;
   position: relative;
 }
+
+/* line 29, ../sass/announcements.scss */
 .subhead {
-  top: 20px;
+  top: 43px;
 }
+
+/* line 32, ../sass/announcements.scss */
 footer.container {
-  top: 20px;
+  top: 43px;
 }

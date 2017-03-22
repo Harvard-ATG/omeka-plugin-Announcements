@@ -11,7 +11,7 @@ class AnnouncementsPlugin extends Omeka_Plugin_AbstractPlugin
   );
 
   function hookAdminHead($view){
-		$announcements = json_decode(file_get_contents('http://sites.fas.harvard.edu/~abarrett/announcement.json'));
+		$announcements = json_decode(file_get_contents('http://dighist.fas.harvard.edu/announcement.json'));
     queue_css_file("announcements");
     queue_js_file("announcements");
 		queue_js_string("announcements = ".json_encode($announcements).";");

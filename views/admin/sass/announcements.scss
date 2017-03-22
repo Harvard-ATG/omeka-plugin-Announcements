@@ -1,0 +1,34 @@
+$announcement_height: 43px;
+
+#announcement {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: black;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f95602;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+header {
+  top: $announcement_height;
+}
+
+#content-nav {
+  top: $announcement_height+50;
+}
+
+#content {
+  top: $announcement_height;
+  position: relative;
+}
+.subhead {
+  top: $announcement_height;
+}
+footer.container {
+  top: $announcement_height;
+}
