@@ -6,6 +6,8 @@
   z-index: 1000;
   color: black;
   width: 100%;
+  height: 23px;
+  overflow: auto;
   text-align: center;
   padding: 10px;
   background-color: #f95602;
