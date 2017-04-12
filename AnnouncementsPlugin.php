@@ -33,7 +33,7 @@ class AnnouncementsPlugin extends Omeka_Plugin_AbstractPlugin
     $contents = file_get_contents($config->json_url);
     if ($contents === FALSE) {
       debug("No content fetched for announcement url: $url");
-			debug("HTTP response headers: ".var_export($http_response_header, 1));
+      debug("HTTP response headers: ".var_export($http_response_header, 1));
       return FALSE;
     }
 
